@@ -85,8 +85,11 @@
       display: flex;
   }
   .popup {
-      display: block;
+      display: none;
   }
+  .navigation-list-name {
+    margin: 0 0 0 14px;
+}
   .header {
     background-color: rgb(50, 50, 50);
     padding: 20px;
@@ -319,6 +322,7 @@
         display: flex;
         overflow: auto;
         transition: 0.5s;
+        
     }
     .popup a {
         border-radius: 5px;
@@ -398,98 +402,4 @@
         overflow: hidden;
     }
   }
-  
-  
-       background-color: white;
-        color: black;
-        top: 0;
-        transition: all 0.2s
-    }
-    .popup .menu a.active {
-        display: flex;
-        border-radius: 10px;
-        background-color: white;
-        color: black;
-        top: 0;
-        transition: all 0.2s;
-    }
-    .hamb__field.active .bar:nth-child(2) {
-        opacity: 0;
-    }
-    .hamb__field.active .bar:nth-child(1) {
-        background-color: white;
-        transform: translateY(8px) rotate(135deg);
-    }
-    .hamb__field.active .bar:nth-child(3) {
-        background-color: white;
-        transform: translateY(-8px) rotate(-135deg);
-    }
-    .hamb__field:hover .bar:nth-child(2) {
-        background-color: white;
-    }
-    .hamb__field:hover .bar:nth-child(1) {
-        background-color: white;
-    }
-    .hamb__field:hover .bar:nth-child(3) {
-        background-color: white;
-    }
-    body.noscroll {
-        overflow: hidden;
-    }
-  }
-  
-  
-  }
-    body.noscroll {
-        overflow: hidden;
-    }
-  }
-  
-  
-   }
-  }
-  
-  
-den;
-    }
-  }
-  
-  
-olor: white;
-    }
-    body.noscroll {
-        overflow: hidden;
-    }
-  }
-  
-  
-n;
-    }
-  }
-  
-  
-rm: translateY(-8px) rotate(-135deg);
-    }
-    .hamb__field:hover .bar:nth-child(2) {
-        background-color: white;
-    }
-    .hamb__field:hover .bar:nth-child(1) {
-        background-color: white;
-    }
-    .hamb__field:hover .bar:nth-child(3) {
-        background-color: white;
-    }
-    body.noscroll {
-        overflow: hidden;
-    }
-  }
-  
-  
- }
-  
-  
-den;
-    }
-  }
-  
   
