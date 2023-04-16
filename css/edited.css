@@ -68,6 +68,13 @@
       color: black;
       transition: all 0.2s;
   }
+      footer {
+        background-color: rgb(50, 50, 50);
+        padding: 10px;
+        text-align: center;
+        border-radius: 8px;
+        margin: 8px;
+    }
   .menu a:hover {
       display: flex;
       background-color: white;
