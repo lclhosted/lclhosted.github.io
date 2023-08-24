@@ -1,3 +1,4 @@
-# My tiny website!
-👋 Hello! This is my tiny website. <br>
-If you decide to take something, do not forget to indicate the author (more precisely, me).
+# мой хипер крутоц вебсат
+всем кароч дратути, да.<br>
+если хотите добавить мой баннер, то - < a href="https://nerok64.github.io" >< img src="https://nerok64.github.io/banner.png" alt="danilka's website"/ ></a > [пробелы убрать]
+
