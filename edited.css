@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Inconsolata', monospace;
+}
+
+body {
+  margin: 0;
+}
+
+ul.header {
+  list-style-type: none;
+  color: #000000;
+  margin: 8px;
+  padding: 0px;
+  overflow: hidden;
+  background-image: linear-gradient(#d10f15, #0f69d1);
+  text-shadow: 0px 5px 15px #000000;
+  box-shadow: inset 0px 0px 30px rgba(255,255,255,0.35);
+  border-radius: 8px
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 8px;
+  animation-name: ahover;
+  animation-duration: 0.5s;
+  
+}
+
+@keyframes ahover {
+  from {
+    background-color: rgba(255,255,255,0);
+    color: white;
+  }
+  to {
+    background-color: rgba(255,255,255,1);
+    color: black;
+  }
+}
+
+.header {
+  background-color: rgb(50, 50, 50);
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin: 8px;
+}
+
+.warn {
+  background-color: rgb(80, 50, 50);
+  padding: 20px;
+  text-align: center;
+}
+
+.ukraine {
+  background: linear-gradient(180deg, #0056B8 0%, #FFD800 100%);
+  color: black;
+  padding: 20px;
+  text-align: center;
+  margin: 18px;
+  border-radius: 8px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+button {
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+    
+body {
+  background-color: #1e1e1e;
+  color: white;
+  }
+
+ul.a {
+  list-style-type: square;
+}
+.topnav-left {
+    float: right;
+    border-radius: 10px;
+    font-size: 24px;
+    background-color: rgb(0, 0, 0, 0%);
+    font-family: 'Product Sans', sans-serif;
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.2s
+}
+.topnav-left a {
+    border-radius: 8px;
+    float: left;
+    color: var(--back-top-button-font);
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+    font-size: 17px;
+    text-shadow: 0px 5px 15px #000000;
+    transition: all 0.2s
+}
+.topnav-left a:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 8px;
+  animation-name: ahover;
+  animation-duration: 0.3s;
+}
+.topnav-left a.active {
+    border-radius: 10px;
+    background-color: var(--back-top-button-active);
+    color: var(--back-top-button-font-active);
+    transition: all 0.2s
+}
